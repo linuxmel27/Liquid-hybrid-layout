@@ -1,0 +1,55 @@
+/* En todo el HTML, se deja sin margen y espacios en los elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Un ancho de 80% al cuerpo de la página y centrado */
+body {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #7152F4;
+    color: #fff;
+}
+
+div#header {
+    margin: 10px;
+    padding: 20px;
+	background-color: #7152F4;
+}
+
+div#wrapper {
+    padding: 10px;
+}
+
+div#wrapper div {
+    height: 300px;
+}
+
+div#wrapper div#content_area {
+    margin: 0px auto;
+    width: 58%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+div#wrapper div#left_side, div#right_side {
+    width: 18%;
+    text-align: center;
+}
+
+div#wrapper div#left_side {
+    float: left;
+    background-color: #52f471;
+}
+
+div#wrapper div#right_side {
+    float: right;
+    background-color: #f452d5;
+}
+
+div#footer {
+    margin: 10px;
+    padding: 20px;
+	background-color: #7152F4;
+}
